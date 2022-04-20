@@ -1,0 +1,70 @@
+/* Start Form */
+body{
+    background-color: black;
+}
+form {
+    margin: 500px;
+    margin: 10px auto;
+
+}
+.form-group {
+    width: 300px;
+
+}
+.contact-form input{
+    padding-left: 35px; 
+}
+
+.contact-form input,
+.contact-form textarea{
+    margin-bottom: 15px;
+
+}
+.contact-form textarea{
+    height: 150px;
+}  
+
+.contact-form input:not([type='submit']) + i {
+     height: 0;
+     float: left;
+     position: relative;
+     top: -43px;
+     left: 10px; 
+     color: #999;
+}
+
+h1{
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: -3px;
+    color: #757575;
+}
+.alert {
+    margin-bottom: 20px; 
+}
+.contact-form .form-group{
+    margin-bottom: 0;
+    position: relative;
+}
+
+.contact-form .asterisx{
+    height: 0;
+    float: right;
+    position: relative;
+    top: -44px;
+    left: -15px;
+    color: red;
+} 
+.contact-form .asterisx1 {
+    height: 0;
+    float: right;
+    position: relative;
+    top: -155px;
+    left: -15px;
+    color: red;
+} 
+.contact-form .custom-alert{
+    padding: 5px 5px;
+    display: none;
+}
